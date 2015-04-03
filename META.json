@@ -1,0 +1,32 @@
+{
+    "name": "otp",
+    "abstract": "Implementation of TOTP which is compatible with google authenticator app.",
+    "description": "Implementation of TOTP which is compatible with google authenticator app.",
+    "version": "1.0.0",
+    "maintainer": "Marcel Asio",
+    "license": "postgresql",
+    "provides": {
+        "otp": {
+            "abstract": "Implementation of TOTP which is compatible with google authenticator app.",
+            "file": "sql/otp.sql",
+            "docfile": "README.md",
+            "version": "1.0.0"
+        }
+    },
+    "resources": {
+        "bugtracker": {
+            "web": "http://github.com/asio/otp"
+        },
+        "repository": {
+            "url":  "https://github.com/asio/otp.git",
+            "web":  "https://github.com/asio/otp",
+            "type": "git"
+        }
+   },
+    "release_status": "stable",
+    "generated_by": "Marcel Asio",
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}

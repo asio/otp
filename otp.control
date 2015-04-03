@@ -1,0 +1,4 @@
+# otp extension
+comment = 'Implementation of TOTP which is compatible with google authenticator app.'
+default_version = '1.0.0'
+relocatable = true
